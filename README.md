@@ -6,14 +6,14 @@ Ao utilizar o Copilot, percebi que durante as interações de teste, ele prontam
 Como foi o caso abaixo:
 ![image](https://github.com/MonteMarina/IAcopilotAzure/assets/154125061/40aceb57-28b6-4a92-b0bb-8a1fc4d88dab)
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
-namespace EstacionamentoApp
-{
-    public class Estacionamento
-    {
+    namespace EstacionamentoApp
+     {
+      public class Estacionamento
+      {
         private decimal precoInicial;
         private decimal precoPorHora;
         private List<string> veiculos;
@@ -69,6 +69,9 @@ namespace EstacionamentoApp
     }
 }
 
+
+
+ 
 ![image](https://github.com/MonteMarina/IAcopilotAzure/assets/154125061/c2f39c1e-571d-4649-8dd3-90bc3a663cdd)
 
 
